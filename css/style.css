@@ -24,7 +24,7 @@
 }
 
 .wrapper {
-    background-image: url('/img/footer-gradient-background.png');
+    background-image: url('../img/footer-gradient-background.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -664,7 +664,7 @@
 
 
 .footer {
-    background-image: url('/img/footer-gradient-background.png');
+    background-image: url('../img/footer-gradient-background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -720,6 +720,11 @@
 .nav__list--our-pet {
     list-style: none;
 }
+
+.nav__list--item--our-pet:hover {
+    color: rgb(224, 161, 79);
+    transition: all 0.7s;
+} 
 
 .header__box--left-our__pet {
     display: flex;
